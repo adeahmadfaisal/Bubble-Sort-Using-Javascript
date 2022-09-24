@@ -8,12 +8,12 @@ var arrDataSort= [234, 43, 55, 63,  5, 6, 235, 547];
         
       
         for (let indexData = 0; indexData < (arrDataSort.length-1); indexData++) {
-            //Perulangan pertama untuk looping data untuk membandingkan antara perulangan pertama dan kedua
+            //The first loop for looping data to compare between the first and second iterations
                         
 
             if (arrDataSort[indexData] > arrDataSort[indexData+1]) {
-                /* Statement if Jika angka pertama lebih besar daripada angka selanjutnya
-                 Jika kondisi benar maka ubah posisi number */
+                /* If" function If the first number is greater than the next number
+                If the condition is true then change the position of number */
 
                 let temp = arrDataSort[indexData+1];
                 arrDataSort[indexData+1] = arrDataSort[indexData];
